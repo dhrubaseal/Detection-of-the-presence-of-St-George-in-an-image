@@ -1,6 +1,6 @@
-# Project Name
+# Detection of the presence of St. George in an image
 
-Brief project description or tagline.
+Detecting the presence of St. George in an image with Machine Learning Model
 
 ## Table of Contents
 - [Overview](#overview)

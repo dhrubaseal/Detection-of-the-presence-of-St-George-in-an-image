@@ -47,8 +47,8 @@ The project can be used for image classification of 2 classes.
 The Dataset is downloaded from the given source, and stored in a seperate location.
 The Directories are classified in the below format.
 
-   ├── Selected/
-       ├── Dataset/
+    ├── Selected/
+        ├── Dataset/
             ├── george/
             │   ├── image1.jpg
             │   ├── image2.jpg
@@ -64,7 +64,7 @@ Duplicate files are removed from each directory.
 
 Training dataset are stored in the below format,
 
-   ├── Selected/
+    ├── Selected/
        ├── Train/
             ├── george/
             │   ├── image1.jpg
@@ -77,8 +77,8 @@ Training dataset are stored in the below format,
 
 Validation dataset are stored in the below format,
 
-   ├── Selected/
-       ├── Validation/
+    ├── Selected/
+        ├── Validation/
             ├── george/
             │   ├── image1.jpg
             │   ├── image2.jpg

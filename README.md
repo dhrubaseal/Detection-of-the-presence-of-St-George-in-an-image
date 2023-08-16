@@ -143,10 +143,10 @@ Total params: 14848193 (56.64 MB)
 Trainable params: 14847745 (56.64 MB)
 Non-trainable params: 448 (1.75 KB)
 
-optimizer = adam
-loss = binary_crossentropy
-metrics = accuracy
-epochs = 10
+Optimizer = adam
+Loss = binary_crossentropy
+Metrics = accuracy
+Epochs = 10
 
 ### Inference
 

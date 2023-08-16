@@ -26,17 +26,18 @@ Provide information on how to set up and run your project.
 
 ### Prerequisites
 
-- Python 3.x
-- TensorFlow
-- Numpy
-- Matplotlib
-- Pillow
-- Shutil
+    - Python 3.x
+    - TensorFlow
+    - Numpy
+    - Matplotlib
+    - Pillow
+    - Shutil
 
 ### Installation
 
 Installed the required packages.
-pip install tensorflow numpy matplotlib
+
+NumPy, Pillow, TensorFlow, Pathlib, Hashlib, Shutil, OpenCV
 
 ## Usage
 
@@ -90,8 +91,8 @@ Validation dataset are stored in the below format,
 
 Testing dataset are stored in the below format,
 
-   ├── Selected/
-       ├── Test/
+    ├── Selected/
+        ├── Test/
             ├── george/
             │   ├── image1.jpg
             │   ├── image2.jpg
@@ -114,56 +115,40 @@ Labelled data is normalised
 
 The Convolutional Neural Network is used to train the Machine Learing model.
 
-Model: "sequential_1"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- conv2d_3 (Conv2D)           (None, 254, 254, 32)      896       
-                                                                 
- batch_normalization_3 (Bat  (None, 254, 254, 32)      128       
- chNormalization)                                                
-                                                                 
- max_pooling2d_3 (MaxPoolin  (None, 127, 127, 32)      0         
- g2D)                                                            
-                                                                 
- conv2d_4 (Conv2D)           (None, 125, 125, 64)      18496     
-                                                                 
- batch_normalization_4 (Bat  (None, 125, 125, 64)      256       
- chNormalization)                                                
-                                                                 
- max_pooling2d_4 (MaxPoolin  (None, 62, 62, 64)        0         
- g2D)                                                            
-                                                                 
- conv2d_5 (Conv2D)           (None, 60, 60, 128)       73856     
-                                                                 
- batch_normalization_5 (Bat  (None, 60, 60, 128)       512       
- chNormalization)                                                
-                                                                 
-Total params: 14848193 (56.64 MB)
-Trainable params: 14847745 (56.64 MB)
-Non-trainable params: 448 (1.75 KB)
+    Model: "sequential_1"
+    _________________________________________________________________
+     Layer (type)                Output Shape              Param #   
+    =================================================================
+     conv2d_3 (Conv2D)           (None, 254, 254, 32)      896       
+                                                                     
+     batch_normalization_3 (Bat  (None, 254, 254, 32)      128       
+     chNormalization)                                                
+                                                                     
+     max_pooling2d_3 (MaxPoolin  (None, 127, 127, 32)      0         
+     g2D)                                                            
+                                                                     
+     conv2d_4 (Conv2D)           (None, 125, 125, 64)      18496     
+                                                                     
+     batch_normalization_4 (Bat  (None, 125, 125, 64)      256       
+     chNormalization)                                                
+                                                                     
+     max_pooling2d_4 (MaxPoolin  (None, 62, 62, 64)        0         
+     g2D)                                                            
+                                                                     
+     conv2d_5 (Conv2D)           (None, 60, 60, 128)       73856     
+                                                                     
+     batch_normalization_5 (Bat  (None, 60, 60, 128)       512       
+     chNormalization)                                                
+                                                                     
+    Total params: 14848193 (56.64 MB)
+    Trainable params: 14847745 (56.64 MB)
+    Non-trainable params: 448 (1.75 KB)
 
-Optimizer = adam
-Loss = binary_crossentropy
-Metrics = accuracy
-Epochs = 10
-
-### Inference
-
-Explain how to use the trained model for image classification. Provide examples of how to load the model, preprocess images, and make predictions.
+    Optimizer = adam
+    Loss = binary_crossentropy
+    Metrics = accuracy
+    Epochs = 10
 
 ## Results
 
 If you have achieved any notable results or metrics, showcase them in this section. This could include accuracy, loss plots, and sample predictions.
-
-## Contributing
-
-If you welcome contributions from others, explain how they can contribute to your project. Include guidelines for submitting pull requests, reporting issues, and other ways to collaborate.
-
-## License
-
-Include information about the license under which your project is released. This can help others understand how they can use, modify, or distribute your code.
-
-## Acknowledgements
-
-Give credit to any resources, libraries, or datasets you used in your project. You can also acknowledge other contributors or sources of inspiration.

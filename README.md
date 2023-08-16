@@ -58,7 +58,7 @@ The Directories are classified in the below format.
 
 Duplicate files are removed from each directory.
 
-#The images are segrigated for train, validation, test and stored in different directories.
+The images are segrigated for train, validation, test and stored in different directories.
 
 Training dataset are stored in the below format,
 

@@ -10,7 +10,6 @@ Detecting the presence of St. George in an image with Machine Learning Model
 - [Usage](#usage)
   - [Dataset Preparation](#dataset-preparation)
   - [Training](#training)
-  - [Inference](#inference)
 - [Results](#results)
 
 

@@ -12,9 +12,7 @@ Detecting the presence of St. George in an image with Machine Learning Model
   - [Training](#training)
   - [Inference](#inference)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+
 
 ## Overview
 
@@ -151,4 +149,5 @@ The Convolutional Neural Network is used to train the Machine Learing model.
 
 ## Results
 
-If you have achieved any notable results or metrics, showcase them in this section. This could include accuracy, loss plots, and sample predictions.
+Used Matplotlib to plot the model training and validation progress.
+The model is able to predict the presence of St George in the image but the result is not always accurate.
